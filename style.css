@@ -1,0 +1,81 @@
+<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
+.container-fixed{
+  top: -50px;
+}
+body{
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  /*background-color: #cff5ed;*/
+}
+.myNavbar{
+  display: flex;
+  justify-content: space-between;
+
+}
+.myAboutMe{
+  background-color: #13D0A8;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.myWrapper70 {
+  max-width: 70%;
+  margin: 0px auto;
+}
+.myWrapper90{
+  max-width: 90%;
+  margin: 0px auto;
+}
+.leftmargin5{
+  /*max-width: 100%;*/
+  margin-left: 5%;
+}
+.blueBorder{
+  border: 2px solid Blue;
+}
+.redBorder{
+  border: 2px solid red;
+}
+.myBrand{
+  color: #13D0A8;
+  font-weight: bold;
+  font-size: 4em;
+  background-color: white;
+}
+.myNavItem{
+
+  font-size: 2em;
+  padding: 20px;
+  border: 2px solid white;
+}
+.myNavItem:hover {
+  color: #13D0A8;
+  background-color: white;
+  border: 2px solid #13D0A8;
+}
+.myNavList{
+  background-color: #13D0A8;
+  display: flex;
+  justify-content: space-around;
+}
+.myWork{
+  background-color: #cff5ed;
+  margin-top: 0px;
+}
+ .myWork.h1{
+   margin: 0px;
+ }
+.lightbg{
+  background-color: #13D0A8;
+}
+
+.fa-facebook-official,.fa-twitter,.fa-github{
+  color: black;
+}
+i{
+  padding: 10px;
+}
+i:hover{
+  color:blue;
+}
